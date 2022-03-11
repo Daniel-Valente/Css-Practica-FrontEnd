@@ -1,0 +1,406 @@
+  * {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
+  }
+
+  .nav_enlace {
+    display: flex;
+    flex-direction: row-reverse;
+    display: block;
+    color: #B9C1D9;
+    text-align: center;
+    overflow: hidden;
+    font-weight:bold;
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 16px;
+  }
+  
+  #active {
+    border-radius: 5px;
+    color: white;
+    background-color: #237DDD;
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+  }
+
+  .nav_titulo { 
+    color: #237DDD;
+    display:inline-block;
+    margin: 50px 100px;
+    font-weight:bold;
+    font-size: 30px;
+  }
+
+  .nav_estilo {
+    display:inline-block;
+    position: absolute;
+    margin: 50px 191px;
+  }
+
+  .img_background {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+    width: 650px; 
+    height: 145px;
+    background-color: #237DDD10;
+  }
+  
+
+  #contenedor {
+    color: #315383;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  
+  #contenedor > div {
+    width: 50%;
+  }
+
+  .img_no_one {
+    position: absolute;
+    width: 100%;
+    margin-top: 210px;
+  }
+  
+  #img_1 {
+    position: relative;
+    margin-top: 0px;
+    margin-left: 0px;
+    width: 651px;
+    height: 650px;
+    background-color: #237DDD;
+  }
+  
+  .img_no_two {
+    margin-left: -25px;
+    position: absolute;
+    left: 0%;
+  }
+
+  #img_2 {
+    margin-top: 158px;
+    margin-left: -25px;
+    width: 500px;
+    height: 250px;
+    z-index: 100;
+    background-color: #237DDD;
+  }
+
+  .img_no_three {
+    position: absolute;
+    margin-left: 60px;
+  }
+
+  #img_3 {
+    margin-top: 157px;
+    margin-left: 110px;
+    width: 500px;
+    height: 250px;
+    background-color: #237DDD;
+  }
+
+  .img_marca {
+    margin: 50px 60px;
+    opacity: 0.1;
+  }
+
+  .img_background_proteccion {
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 5px;
+    top: 445px;
+    margin-left: -113px;
+    width: 50px; 
+    height: 50px;
+    box-shadow: 0px 20px 10px rgba(255, 208, 18, 0.1);
+    background-color: #FFD01220;
+  }
+
+  .img_background_estrella {
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 5px;
+    top: 449px;
+    margin-left: -78px;
+    width: 50px; 
+    height: 50px;
+    box-shadow: 0px 20px 10px rgba(255, 208, 18, 0.1);
+    background-color: #FFD01220;
+  }
+
+  .img_background_reloj {
+    position: absolute;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin-top: -15px;
+    margin-left: -10px;
+    width: 50px; 
+    height: 50px;
+    box-shadow: 0px 20px 10px rgba(35,125,221, 0.1);
+    background-color: #237DDD20;
+  }
+
+  .cita {
+    display: flexbox;
+    position: absolute;
+    border-radius: 5px;
+    border: 2px solid white;
+    height: 120px;
+    top: 650px;
+    box-shadow: 0px 20px 10px rgba(35,125,221, 0.1);
+    background-color: #FFFFFF95;
+  }
+
+  .img_background_ubicacion {
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 10px;
+    width: 30px; 
+    height: 30px;
+    background-color: #237DDD20;
+  }
+
+  .img_background_calendario {
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 200px;
+    width: 30px; 
+    height: 30px;
+    background-color: #237DDD20;
+  }
+  
+  .img_background_vacuna {
+    position: absolute;
+    border-radius: 5px;
+    margin-top: 30px;
+    margin-left: 390px;
+    width: 30px; 
+    height: 30px;
+    background-color: #237DDD20;
+  }
+ 
+  .btn_submit {
+    display: flex;
+    flex-direction: row-reverse;
+    display: block;
+    color: #B9C1D9;
+    text-align: center;
+    overflow: hidden;
+    font-weight:bold;
+    display: inline-block;
+    text-decoration: none;
+    padding: 14px 16px;
+    position: absolute;
+  }
+
+  .spread_viruses {
+    position: absolute;
+    border-radius: 10px;
+    width: 250px; 
+    border: 2px solid #FAFAFF;
+    height: 300px;
+    background-color: white;
+  }
+
+  .antibodies {
+    position: absolute;
+    left: 400px;
+    border-radius: 10px;
+    width: 250px; 
+    height: 300px;
+    background-color: white;
+    box-shadow: 0px 20px 10px rgba(35,125,221, 0.1);
+  }
+
+  .nearby {
+    position: absolute;
+    left: 700px;
+    border: 2px solid #FAFAFF;
+    border-radius: 10px;
+    width: 250px; 
+    height: 300px;
+    background-color: white;
+  }
+
+  .inmmunity {
+    position: absolute;
+    left: 1000px;
+    border: 2px solid #FAFAFF;
+    border-radius: 10px;
+    width: 250px; 
+    height: 300px;
+    background-color: white;
+  }
+  
+  .img_background_ajustamiento {
+    position: absolute;
+    border-radius: 5px;
+    width: 50px; 
+    height: 50px;
+    margin-top: 12px; 
+    margin-left: 12px;
+    background-color: #237DDD20;
+  }
+  
+  .img_background_proteger-2 {
+    position: absolute;
+    border-radius: 5px;
+    width: 50px; 
+    height: 50px;
+    margin-top: 18px; 
+    margin-left: 18px;
+    border: 2px solid #FAFAFF;
+    background-color: #237DDD20;
+    box-shadow: 0px 20px 10px rgba(35,125,221, 0.1);
+  }
+
+  .img_background_grupo {
+    position: absolute;
+    border-radius: 5px;
+    width: 50px; 
+    height: 50px;
+    margin-top: 18px; 
+    margin-left: 18px;
+    background-color: #237DDD20;
+  }
+
+  .img_background_grafico-de-lineas {
+    position: absolute;
+    border-radius: 5px;
+    width: 50px; 
+    height: 50px;
+    margin-top: 12px; 
+    margin-left: 12px;
+    background-color: #237DDD20;
+  }
+
+  .alchoholic_box {
+    position: absolute;
+    border: 2px solid #FAFAFF;
+    border-radius: 10px;
+    width: 600px; 
+    height: 50px;
+    background-color: white;
+  }
+
+  .stress_box {
+    position: absolute;
+    border: 2px solid #FAFAFF;
+    border-radius: 10px;
+    margin-top: 70px;
+    width: 600px; 
+    height: 150px;
+    background-color: white;
+  }
+
+  .healthy_box {
+    position: absolute;
+    border: 2px solid #FAFAFF;
+    border-radius: 10px;
+    margin-top: 250px;
+    width: 600px; 
+    height: 50px;
+    background-color: white;
+  }
+
+  .sleep_box {
+    position: absolute;
+    border: 2px solid #FAFAFF;
+    border-radius: 10px;
+    margin-top: 320px;
+    width: 600px; 
+    height: 50px;
+    background-color: white;
+  }
+
+  .physical_box {
+    position: absolute;
+    border: 2px solid #FAFAFF;
+    border-radius: 10px;
+    margin-top: 390px;
+    width: 600px; 
+    height: 50px;
+    background-color: white;
+  }
+
+  .preparations_background_img {
+    position: absolute;
+    border-radius: 5px;
+    width: 40px; 
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 40px;
+    background-color: #237DDD20;
+  }
+
+  .background_img_abrir {
+    position: absolute;
+    border-radius: 5px;
+    width: 25px; 
+    height: 25px;
+    margin-top: 13px;
+    margin-left: 550px;
+    background-color: #237DDD20;
+  }
+
+  .emergency_contact_box {
+    position: absolute;
+    border: 2px solid #FAFAFF;
+    border-radius: 10px;
+    width: 250px; 
+    height: 250px;
+    background-color: white;
+  }
+  .emergency_contact_background_img {
+    position: absolute;
+    border-radius: 5px;
+    width: 60px; 
+    height: 60px;
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: #237DDD20;
+  }
+
+  .btn_emergency {
+    display: flex;
+    flex-direction: row-reverse;
+    display: block;
+    color: #237DDD;
+    text-align: center;
+    overflow: hidden;
+    font-weight:bold;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 15px 50px;
+    background-color: #237DDD20;
+    position: absolute;
+  }
+
+  .end_background {
+    background-color: #237DDD10;
+    height: 300px;
+  }
+  
+  .titulo_end { 
+    color: #237DDD;
+    display:inline-block;
+    position: absolute;
+    margin: 50px 0px;
+    font-weight:bold;
+    font-size: 30px;
+  }
+
+  .option_end {
+    display:inline-block;
+    position: absolute;
+    margin: 50px 0px;
+    font-weight:bold;
+    font-size: 30px;
+  }
